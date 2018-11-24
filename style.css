@@ -1,0 +1,69 @@
+body {
+    text: green;
+    font-size: 17px;
+}
+article {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color:white;
+    }
+
+.article-date {
+    font-weight: bold;
+    font-size: 17px;
+    height: 40px;
+    float: left;
+    margin-right: 20px;
+    }
+
+blockquote {
+    quotes: "“" "”" "‘" "’";
+    position: relative;
+    top: 5px;
+    bottom: 5px;
+  }
+  
+  blockquote:before {
+      content: open-quote;
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 150px;
+      position: absolute;
+      top: -50px;
+      right: 150px;
+      font-weight: bold;
+   }
+  }
+  blockquote:after {
+      content: close-quote;
+ }
+
+.quote-right {
+    font-size: 30px;
+    border-left: 3px solid darkolivegreen;
+    padding-left: 20px;
+    width: 250px;
+    float: right;
+    margin: 5px -80px 5px 20px;
+}
+
+.quote-left {
+    font-size: 30px;
+    border-right: 3px solid darkolivegreen;
+    padding-right: 20px;
+    width: 250px;
+    float: left;
+    margin: 5px 20px 5px -80px;
+}
+
+.image-left {
+    float: left;
+    margin-right: 20px;
+    margin-left: -100px;
+}
+
+.image-caption {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
